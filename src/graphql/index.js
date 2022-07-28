@@ -1,6 +1,5 @@
 import { ApolloClient, InMemoryCache } from "@apollo/client";
 import { GET_SPACE_MISSION } from "./queries";
-
 export const client = new ApolloClient({
   uri: "https://api.spacex.land/graphql/",
   cache: new InMemoryCache(),
